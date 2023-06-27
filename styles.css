@@ -16,7 +16,8 @@ body{
 }
 img{
     width: 1031px;
-    aspect-ratio: cover;
+	object-fit: cover;
+    
     height: 356px;
     cursor: zoom-in;
     margin: auto;
