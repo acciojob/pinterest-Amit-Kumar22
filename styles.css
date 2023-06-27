@@ -15,7 +15,7 @@ body{
 	margin-top: 150px;
 }
 img{
-	object-fit: cover;
+	object-fit: fill;
     height: 356px;
     cursor: zoom-in;
     margin: auto;
