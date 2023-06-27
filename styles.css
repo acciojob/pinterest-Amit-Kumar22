@@ -10,12 +10,13 @@ body{
 .hero{
     display: flex;
 	height: 355px;
+	width: 1100px;
 	background-color: white;
 	margin-top: 150px;
 }
 img{
     width: 1031px;
-    aspect-ratio: auto 1031 / 356;
+    aspect-ratio: fit;
     height: 356px;
     cursor: zoom-in;
     margin: auto;
@@ -26,9 +27,7 @@ img{
     justify-content: center;
     align-items: center;
     margin-left: 80px;
-    font-size: 40px;
     margin-top: 80px;
-    font-weight: bold;
 }
 .lec{
     display: list-item;
@@ -39,15 +38,18 @@ img{
     font-size: 20px;
     font-weight: bold;
 }
-button{
-    background-color: red;
-    border: 0px ;
-    padding:10px;
-}
+
 .button{
+	background-color: red;
     justify-content: center;
     align-items: center;
+	padding: 10px;
+	text-align: center;
     margin-left: 155px;
+}
+.button>a{
+	text-decoration: none;
+	color: white;
 }
 
 	 
