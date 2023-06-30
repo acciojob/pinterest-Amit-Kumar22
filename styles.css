@@ -15,7 +15,7 @@ body{
 	margin-top: 150px;
 }
 img{
-	background-size: cover;
+	background-size: fill;
     height: 356px;
     cursor: zoom-in;
     margin: auto;
