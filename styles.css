@@ -15,11 +15,11 @@ body{
 	margin-top: 150px;
 }
 .hero img{
-	object-fit: fill;
+	object-fit: cover;
     height: 356px;
     cursor: zoom-in;
     margin: auto;
-    -webkit-user-select: none;
+   
     background-color: 300ms;
 }
 .text{
