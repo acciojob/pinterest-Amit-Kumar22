@@ -14,8 +14,8 @@ body{
 	background-color: white;
 	margin-top: 150px;
 }
-img{
-	background-size: fill;
+.hero img{
+	object-fit: fill;
     height: 356px;
     cursor: zoom-in;
     margin: auto;
